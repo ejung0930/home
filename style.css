@@ -266,7 +266,7 @@ h3{
         color: black;
         margin:150px;
         width:70vw;
-        height:80vh;
+        height:1300px;
         flex-wrap:wrap;
     }
     .box img{
@@ -276,5 +276,27 @@ h3{
         transform: translate(-50%,-50%);
         max-width: 100%;
         height: auto;
+    }
+    .part1{
+        margin:5px;
+        margin-top:250px;
+    }
+    li{
+        padding:5px;
+    }
+    .name {
+        margin:0px;
+        margin-top: 0px;
+    }
+    .pic
+    {
+        padding:5px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        position: relative;
+        transition: transform 0.3s ease;
+        height:353px;
+
     }
 }
