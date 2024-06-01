@@ -34,11 +34,19 @@ body {
     background-position:center;
     background-size:100vw 100vh;
 }
+.img2{
+    height: 400px;
+    margin: 0px;
+    margin-top:40px;
+}
+.img3{
+    margin-top: 40px;
+}
 .imagepp{
     word-break: keep-all;
     color: black;
     background-color:rgb(255,255, 255, 0.5);
-    padding:30px;
+    padding:40px;
     letter-spacing:3.3px;
     line-height:2.0;
     font-size:19.0px;
@@ -48,12 +56,30 @@ body {
     flex-direction: column;
     justify-content:left;
     text-align: left;
-    height:600px;
+    height:900px;
+    margin:5px;
+    white-space: pre-line;
+}
+.imagepp1{
+    word-break: keep-all;
+    color: black;
+    background-color:rgb(255,255, 255, 0.5);
+    padding:40px;
+    letter-spacing:3.3px;
+    line-height:2.0;
+    font-size:19.0px;
+    text-align: center;
+    width:900px;
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    text-align: left;
+    height:450px;
     margin:5px;
     white-space: pre-line;
 }
 .imagep{
-    margin:50px;
+    margin:100px;
 }
 .imagepic{
     width:1000px;
@@ -211,7 +237,7 @@ h1{
 }
 .imgh1{
     font-size:30px;
-    margin: 30px;
+    margin:60px;
 }
 .text {
     background-color:white;
@@ -584,15 +610,26 @@ h3{
     width: 350px;
     }
 .imagepp{
-    width:260px;
+    width:300px;
     padding: 15px;
-    margin:40px;
+    margin:0px;
     margin-top:40px;
     font-size:15.0px;
-    height:900px;
+    height:1800px;
+    word-break: keep-all;
     }
+.imagepp1{
+    width:300px;
+    padding: 15px;
+    margin:0px;
+    margin-top:40px;
+    font-size:15.0px;
+    height:780px;
+    word-break: keep-all;
+    }
+
 .imagepic{
-    width: 260px;
+    width:300px;
     }   
 }
 
