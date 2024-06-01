@@ -598,7 +598,7 @@ h3{
     align-items: center;
     }
 .index3{
-    width:80px;
+    width:0px;
     margin:0px;
     height:100vh;
 }
@@ -610,7 +610,7 @@ h3{
     width: 350px;
     }
 .imagepp{
-    width:300px;
+    width:220px;
     padding: 15px;
     margin:0px;
     margin-top:40px;
@@ -619,7 +619,7 @@ h3{
     word-break: keep-all;
     }
 .imagepp1{
-    width:300px;
+    width:220px;
     padding: 15px;
     margin:0px;
     margin-top:40px;
@@ -629,8 +629,24 @@ h3{
     }
 
 .imagepic{
-    width:300px;
-    }   
+    width:220px;
+    }  
+.image{
+     background-size:auto 100vh;
+} 
+.hi{
+    margin:20px;
+    margin-top:0px;
+}
+.hi{
+  opacity:1;
+  display:block;
+  width:200px;
+  height:auto;
+  margin:230px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    }
 }
 
 
