@@ -13,22 +13,69 @@ body {
     text-align: center;
     flex-wrap: wrap;
 }
-.homepage{
-    background-image: url("homeimg/home.png");
+.textbg{
+    background-image: url("homeimg/file.png");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
-    background-size:100vw auto;
 }
 .image{
-    background-image: url("img2/bg.jpeg");
+    background-image: url("img2/cameraop.png");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
-    background-size:100vw 100vh;
 }
-.image2{
-    background-color: rgb(150,230,130,0.3);
+.mypagepp1{
+    color:black;
+    letter-spacing:17.0px;
+    font-size: 20.0px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    writing-mode: vertical-lr;
+    position: fixed;
+    left:0;
+}
+.mypagepp2{
+    color:black;
+    letter-spacing:17.0px;
+    font-size: 20.0px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    writing-mode: vertical-lr;
+    position: fixed;
+    right:0;
+}
+.mypagepp3{
+    color:white;
+    background-color: black;
+    letter-spacing:46.0px;
+    font-size:15.0px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    writing-mode: vertical-lr;
+    position: fixed;
+    margin:25px;
+    margin-top: 0px;
+    height:100vh;
+    left:0;
+}
+.mypagepp4{
+    color:white;
+    background-color: black;
+    letter-spacing:46.0px;
+    font-size:15.0px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    writing-mode: vertical-lr;
+    position: fixed;
+    margin:25px;
+    margin-top:0px;
+    height: 100vh;
+    right:0;
 }
 .img2{
     height: 400px;
@@ -41,7 +88,6 @@ body {
 .imagepp{
     word-break: keep-all;
     color: black;
-    background-color:rgb(255,255, 255, 0.5);
     padding:40px;
     letter-spacing:3.3px;
     line-height:2.0;
@@ -52,14 +98,12 @@ body {
     flex-direction: column;
     justify-content:left;
     text-align: left;
-    height:900px;
     margin:5px;
     white-space: pre-line;
 }
 .imagepp1{
     word-break: keep-all;
     color: black;
-    background-color:rgb(255,255, 255, 0.5);
     padding:40px;
     letter-spacing:3.3px;
     line-height:2.0;
@@ -70,15 +114,13 @@ body {
     flex-direction: column;
     justify-content:left;
     text-align: left;
-    height:450px;
-    margin:5px;
     white-space: pre-line;
-}
-.imagep{
-    margin:100px;
 }
 .imagepic{
     width:1000px;
+    padding:40px;
+    margin:250px;
+    border-bottom: 2px dotted black;
 }
 .image2{
     display: flex;
@@ -112,18 +154,19 @@ body {
 }
 .middle{
   transition: .5s ease;
-  opacity: 0;
+  opacity:0;
   position: absolute;
-  background-color:white;
   width:90px;
   padding: 20px;
   top:50%;
   left:50%;
+  font-size: 20px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
 .hometext{
   position: relative;
+  margin:100px;
 }
 .hometext:hover .hi {
   opacity: 0.3;
@@ -136,7 +179,8 @@ body {
 }
 
 .imagetext{
-  position: relative;
+    position: relative;
+    margin-top:0px;
 }
 .imagetext:hover .imgicon {
   opacity: 0.3;
@@ -184,20 +228,19 @@ body {
     align-items: center;
     flex-direction:column;
     margin:20px;
-    background-color:ghostwhite;
     width:600px;
     padding:5px;
     letter-spacing:5px;
 }
-
-
-
 .box{
-    background-color:lightyellow;
-    color: black;
+    background-color:white;
+    color: black ;
     margin:150px;
     width: 870px;
-    height: 900px;
+    height: 860px;
+    border: 1px solid black;
+    opacity: 0.8;
+
 }
 .box img{
     position: absolute;
@@ -232,7 +275,7 @@ h1{
     margin: 30px;
 }
 .imgh1{
-    font-size:30px;
+    font-size:40px;
     margin:60px;
 }
 .text {
@@ -312,27 +355,20 @@ a:hover{
 }
 
 .pic:hover {
-    transform: translateX(20px);
+    transform: translateX(12px);
     font-size:30px;
-    background: linear-gradient(to top right,lightyellow, white 90%);
+    background-color: white;
 }
 
 .body2{
     background-color:white;
 }
 .index2 {
-    position:fixed;
-    top: 0;
-    width: 100vw;
-    display: flex;
-    color: white;
-}
-.index2 {
     position: fixed;
     top: 0;
     width: 100vw;
     display: flex;
-    background:rgb(255,255,255,0.5);
+    color: white;
 }
 
 .index2 a {
@@ -345,24 +381,23 @@ a:hover{
 }
 
 .index2 a:hover {
-    background-color:lightyellow;
-    color:black;
-    transform: translateX(20px);
-    font-size:20px;
+    background-color:black;
+    color:white;
+
+    font-size:17px;
 }
 .index3 {
     position:fixed;
     top: 0;
     left: 0;
     display: flex;
-    flex-direction: column; 
+    flex-direction:column; 
     justify-content: flex-start;
     align-items: flex-start;
+    background-color: rgb(255,255, 255, 0.5);
     top: 0;
     width:200px;
     height: 100vh;
-
-    background:rgb(255,255,255,0.5);
 }
 .index3 a {
     flex: 1;
@@ -374,15 +409,13 @@ a:hover{
 }
 
 .index3 a:hover {
-    background-color:white;
-    color:black;
-    transform: translateX(20px);
+    background-color:black;
+    color:white;
 }
 
 .gallery {
     display: flex;
     margin: 30px;
-    overflow-x: scroll;
     white-space: nowrap;
     width:100vw; 
 }
@@ -482,9 +515,8 @@ h3{
         color: black;
         margin:40px;
         width:70vw;
-        height:1120px;
+        height:1070px;
         flex-wrap:wrap;
-        background-color: lightyellow;
     }
     .box img{
         position: absolute;
@@ -499,15 +531,15 @@ h3{
         margin-top:250px;
     }
     li{
-        padding:2px;
+        padding:0px;
     }
     .name {
         margin:0px;
         margin-top: 0px;
     }
     .pic{
-        margin: 4px;
-        padding:2px;
+        margin:1px;
+        padding:0px;
         display: flex;
         flex-direction: column;
         align-items:center;
@@ -519,12 +551,12 @@ h3{
     .pic:hover {
     transform: translateX(15px);
     font-size:20px;
-    background: linear-gradient(to top right,lightyellow, white 90%);
     }
 
     item {
     flex: 0 0 auto;
     margin:20px;
+    mar
     }
 
 .item img {
@@ -603,7 +635,7 @@ h3{
 }
 .image2article{
     margin-left:100px;
-    width: 350px;
+    width:350px;
     }
 .imagepp{
     width:220px;
@@ -611,7 +643,6 @@ h3{
     margin:0px;
     margin-top:40px;
     font-size:15.0px;
-    height:2300px;
     word-break: keep-all;
     }
 .imagepp1{
@@ -620,12 +651,12 @@ h3{
     margin:0px;
     margin-top:40px;
     font-size:15.0px;
-    height:1000px;
     word-break: keep-all;
     }
 
 .imagepic{
     width:220px;
+    padding:5px;
     }  
 .image2{
      background-size:auto 100vh;
@@ -652,6 +683,12 @@ h3{
   margin:230px;
   transition: .5s ease;
   backface-visibility: hidden;
+    }
+ .index2 {
+    top: 0;
+    width: 100vw;
+    display: flex;
+    color: white;
     }
 }
 
